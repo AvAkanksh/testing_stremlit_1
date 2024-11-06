@@ -1,2 +1,4 @@
 plotly
 kafka-python
+flask
+gunicorn
