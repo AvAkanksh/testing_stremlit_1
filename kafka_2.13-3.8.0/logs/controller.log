@@ -1,0 +1,4 @@
+[2024-11-06 10:12:44,961] INFO [Controller id=0] Shutting down broker 0 (kafka.controller.KafkaController)
+[2024-11-06 10:12:45,343] DEBUG [Controller id=0] All shutting down brokers: 0 (kafka.controller.KafkaController)
+[2024-11-06 10:12:45,351] DEBUG [Controller id=0] Live brokers:  (kafka.controller.KafkaController)
+[2024-11-06 10:12:45,501] TRACE [Controller id=0] All leaders = global_weather-0 -> (Leader:0,ISR:0,LeaderRecoveryState:RECOVERED,LeaderEpoch:0,ZkVersion:0,ControllerEpoch:1),weather_topic-0 -> (Leader:0,ISR:0,LeaderRecoveryState:RECOVERED,LeaderEpoch:0,ZkVersion:0,ControllerEpoch:1) (kafka.controller.KafkaController)

@@ -1,0 +1,49 @@
+[2024-11-05T18:10:00.696+0530][gc,init] CardTable entry size: 512
+[2024-11-05T18:10:00.696+0530][gc     ] Using G1
+[2024-11-05T18:10:00.703+0530][gc,init] Version: 21.0.4+7-Ubuntu-1ubuntu224.04 (release)
+[2024-11-05T18:10:00.703+0530][gc,init] CPUs: 16 total, 12 available
+[2024-11-05T18:10:00.703+0530][gc,init] Memory: 7806M
+[2024-11-05T18:10:00.703+0530][gc,init] Large Page Support: Disabled
+[2024-11-05T18:10:00.703+0530][gc,init] NUMA Support: Disabled
+[2024-11-05T18:10:00.703+0530][gc,init] Compressed Oops: Enabled (32-bit)
+[2024-11-05T18:10:00.703+0530][gc,init] Heap Region Size: 1M
+[2024-11-05T18:10:00.703+0530][gc,init] Heap Min Capacity: 512M
+[2024-11-05T18:10:00.703+0530][gc,init] Heap Initial Capacity: 512M
+[2024-11-05T18:10:00.703+0530][gc,init] Heap Max Capacity: 512M
+[2024-11-05T18:10:00.703+0530][gc,init] Pre-touch: Disabled
+[2024-11-05T18:10:00.703+0530][gc,init] Parallel Workers: 10
+[2024-11-05T18:10:00.703+0530][gc,init] Concurrent Workers: 3
+[2024-11-05T18:10:00.703+0530][gc,init] Concurrent Refinement Workers: 10
+[2024-11-05T18:10:00.703+0530][gc,init] Periodic GC: Disabled
+[2024-11-05T18:10:00.713+0530][gc,metaspace] CDS archive(s) mapped at: [0x00007d56bb000000-0x00007d56bbcae000-0x00007d56bbcae000), size 13295616, SharedBaseAddress: 0x00007d56bb000000, ArchiveRelocationMode: 1.
+[2024-11-05T18:10:00.713+0530][gc,metaspace] Compressed class space mapped at: 0x00007d56bc000000-0x00007d56fc000000, reserved size: 1073741824
+[2024-11-05T18:10:00.713+0530][gc,metaspace] Narrow klass base: 0x00007d56bb000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2024-11-05T18:10:01.174+0530][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-11-05T18:10:01.175+0530][gc,task     ] GC(0) Using 10 workers of 10 for evacuation
+[2024-11-05T18:10:01.178+0530][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2024-11-05T18:10:01.178+0530][gc,phases   ] GC(0)   Merge Heap Roots: 0.1ms
+[2024-11-05T18:10:01.178+0530][gc,phases   ] GC(0)   Evacuate Collection Set: 3.1ms
+[2024-11-05T18:10:01.178+0530][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.5ms
+[2024-11-05T18:10:01.178+0530][gc,phases   ] GC(0)   Other: 0.7ms
+[2024-11-05T18:10:01.178+0530][gc,heap     ] GC(0) Eden regions: 25->0(21)
+[2024-11-05T18:10:01.178+0530][gc,heap     ] GC(0) Survivor regions: 0->4(4)
+[2024-11-05T18:10:01.178+0530][gc,heap     ] GC(0) Old regions: 2->6
+[2024-11-05T18:10:01.179+0530][gc,heap     ] GC(0) Humongous regions: 0->0
+[2024-11-05T18:10:01.179+0530][gc,metaspace] GC(0) Metaspace: 8261K(8448K)->8261K(8448K) NonClass: 7395K(7488K)->7395K(7488K) Class: 865K(960K)->865K(960K)
+[2024-11-05T18:10:01.179+0530][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 26M->8M(512M) 4.633ms
+[2024-11-05T18:10:01.179+0530][gc,cpu      ] GC(0) User=0.02s Sys=0.01s Real=0.00s
+[2024-11-05T23:44:10.472+0530][gc,start    ] GC(1) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-11-05T23:44:10.523+0530][gc,task     ] GC(1) Using 10 workers of 10 for evacuation
+[2024-11-05T23:44:10.576+0530][gc,mmu      ] GC(1) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2024-11-05T23:44:10.576+0530][gc,phases   ] GC(1)   Pre Evacuate Collection Set: 6.5ms
+[2024-11-05T23:44:10.577+0530][gc,phases   ] GC(1)   Merge Heap Roots: 3.0ms
+[2024-11-05T23:44:10.577+0530][gc,phases   ] GC(1)   Evacuate Collection Set: 36.9ms
+[2024-11-05T23:44:10.577+0530][gc,phases   ] GC(1)   Post Evacuate Collection Set: 6.2ms
+[2024-11-05T23:44:10.577+0530][gc,phases   ] GC(1)   Other: 2.0ms
+[2024-11-05T23:44:10.577+0530][gc,heap     ] GC(1) Eden regions: 21->0(24)
+[2024-11-05T23:44:10.577+0530][gc,heap     ] GC(1) Survivor regions: 4->1(4)
+[2024-11-05T23:44:10.577+0530][gc,heap     ] GC(1) Old regions: 6->10
+[2024-11-05T23:44:10.577+0530][gc,heap     ] GC(1) Humongous regions: 0->0
+[2024-11-05T23:44:10.577+0530][gc,metaspace] GC(1) Metaspace: 9584K(9792K)->9584K(9792K) NonClass: 8618K(8704K)->8618K(8704K) Class: 966K(1088K)->966K(1088K)
+[2024-11-05T23:44:10.577+0530][gc          ] GC(1) Pause Young (Normal) (G1 Evacuation Pause) 29M->9M(512M) 105.693ms
+[2024-11-05T23:44:10.577+0530][gc,cpu      ] GC(1) User=0.02s Sys=0.05s Real=0.10s
