@@ -10,7 +10,7 @@ st.set_page_config(page_title="Weather Dashboard", page_icon=":sunny:", layout="
 NO_OF_DATA_POINTS = 15
 
 def fetch_data():
-    url = 'http://localhost:5000/api/data'
+    url = 'https://testing-stremlit-1.onrender.com/api/data'
     response = requests.get(url)
     data = response.json()
     return pd.DataFrame(data)
