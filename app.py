@@ -104,7 +104,7 @@ if(live_plot):
     # Create a Kafka consumer
     consumer = KafkaConsumer(
         'global_weather',
-        bootstrap_servers='localhost:9092',
+        bootstrap_servers='3.85.6.7:9092',
         value_deserializer=lambda m: json.loads(m.decode('utf-8')),
         auto_offset_reset='latest'
     )
