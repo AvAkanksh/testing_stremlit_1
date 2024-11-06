@@ -279,7 +279,7 @@ fi
 if [ -z "$KAFKA_HEAP_OPTS" ]; then
   KAFKA_HEAP_OPTS="-Xmx256M"
 fi
-
+KAFKA_HEAP_OPTS="-Xms128M -Xmx256M"
 # JVM performance options
 # MaxInlineLevel=15 is the default since JDK 14 and can be removed once older JDKs are no longer supported
 if [ -z "$KAFKA_JVM_PERFORMANCE_OPTS" ]; then
