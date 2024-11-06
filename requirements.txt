@@ -2,3 +2,4 @@ plotly
 kafka-python
 flask
 gunicorn
+pandas
